@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rubens.mk
+    $(LOCAL_DIR)/lineage_rembrandt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rubens-user \
-    lineage_rubens-userdebug \
-    lineage_rubens-eng
+    lineage_rembrandt-user \
+    lineage_rembrandt-userdebug \
+    lineage_rembrandt-eng

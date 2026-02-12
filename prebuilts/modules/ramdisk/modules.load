@@ -87,7 +87,7 @@ cqhci.ko
 mtk-mmc-autok.ko
 mtk-mmc-dbg.ko
 mtk-mmc.ko
-panel-l11a-38-0a-0a-dsc-cmd.ko
+panel-m11r-38-0a-0a-dsc-cmd.ko
 phy-mtk-ufs.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
@@ -255,7 +255,7 @@ cqhci.ko
 mtk-mmc-autok.ko
 mtk-mmc-dbg.ko
 mtk-mmc.ko
-panel-l11a-38-0a-0a-dsc-cmd.ko
+panel-m11r-38-0a-0a-dsc-cmd.ko
 phy-mtk-ufs.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko

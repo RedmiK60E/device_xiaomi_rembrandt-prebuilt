@@ -62,7 +62,7 @@ void load_miuicamera_properties()
   // Miui Camera
   property_override("ro.miui.notch", "1");
   property_override("camera.lab.options", "true");
-  property_override("ro.product.mod_device", "rubens_global");
+  property_override("ro.product.mod_device", "rembrandt_global");
   property_override("vendor.camera.aux.packagelist", "com.android.camera");
   property_override("persist.vendor.camera.privapp.list", "com.android.camera");
   property_override("ro.com.google.lens.oem_camera_package", "com.android.camera");
@@ -79,10 +79,10 @@ void vendor_load_properties()
   for (const string &prop : prop_partitions)
   {
     property_override(string("ro.product.") + prop + string("brand"), "Redmi");
-    property_override(string("ro.product.") + prop + string("name"), "rubens");
-    property_override(string("ro.product.") + prop + string("device"), "rubens");
-    property_override(string("ro.product.") + prop + string("model"), "22041211AC");
-    property_override(string("ro.product.") + prop + string("marketname"), "Redmi K50");
+    property_override(string("ro.product.") + prop + string("name"), "rembrandt");
+    property_override(string("ro.product.") + prop + string("device"), "rembrandt");
+    property_override(string("ro.product.") + prop + string("model"), "22122RK93C");
+    property_override(string("ro.product.") + prop + string("marketname"), "Redmi K60E");
   }
 
   property_override("ro.oem_unlock_supported", "0");

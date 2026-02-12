@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),rubens)
+ifeq ($(TARGET_DEVICE),rembrandt)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
 

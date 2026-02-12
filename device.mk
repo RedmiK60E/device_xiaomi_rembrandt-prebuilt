@@ -159,7 +159,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    RubensFrameworkResOverlay \
+    RembrandtFrameworkResOverlay \
     TetheringOVerlay \
     WifiOverlay \
     SystemUIOverlay \
@@ -214,4 +214,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/rubens/rubens-vendor.mk)
+$(call inherit-product, vendor/xiaomi/rembrandt/rembrandt-vendor.mk)

@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := xiaomi
-DEVICE_PATH := device/xiaomi/rubens
+DEVICE_PATH := device/xiaomi/rembrandt
 
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
@@ -30,12 +30,12 @@ AB_OTA_PARTITIONS += \
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 := 
+TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := cortex-a55
+TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv7-a-neon
+TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
@@ -52,7 +52,7 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := rubens
+TARGET_BOOTLOADER_BOARD_NAME := rembrandt
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -63,8 +63,8 @@ TARGET_ENABLE_MEDIADRM_64 := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rubens
-TARGET_RECOVERY_DEVICE_MODULES := libinit_rubens
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rembrandt
+TARGET_RECOVERY_DEVICE_MODULES := libinit_rembrandt
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -75,8 +75,8 @@ BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6895
-TARGET_KERNEL_CONFIG := mikrn_rubens_stability_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/rembrandt
+TARGET_KERNEL_CONFIG := mikrn_rembrandt_stability_defconfig
 
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_KERNEL_IMAGE_NAME := Image.lz4

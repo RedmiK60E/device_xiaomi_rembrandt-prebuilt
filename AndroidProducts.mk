@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rembrandt.mk
+    $(LOCAL_DIR)/kscope_rembrandt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rembrandt-user \
-    lineage_rembrandt-userdebug \
-    lineage_rembrandt-eng
+    kscope_rembrandt-user \
+    kscope_rembrandt-userdebug \
+    kscope_rembrandt-eng

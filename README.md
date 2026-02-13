@@ -24,6 +24,9 @@ It was released in December 2022.
 
 ## Patches
 
+## GPU:
+> https://github.com/RedmiK60E/android_frameworks_native/commit/fceefdd9aec0e18309f909155794a406b240062e
+
 ### Telephony
 > https://github.com/PixelExperience/frameworks_opt_telephony/commit/538afb21007e0497bde131b1ef327fb93ee37031
 

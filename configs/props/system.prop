@@ -10,6 +10,9 @@ ro.surface_flinger.supports_background_blur=1
 # Brand
 Build.BRAND=MTK
 
+# Graphics
+persist.sys.phh.mtk_ged_kpi=1
+
 # IPO
 sys.ipo.disable=1
 sys.ipo.pwrdncap=2
